@@ -21,3 +21,4 @@ This project focuses on implementing and evaluating different recommendation sys
 - **SVD outperforms Matrix Factorization** across all evaluation metrics, particularly in terms of lower loss and error values.
 - Both methods exhibit minimal variance between training and test sets, indicating a well-generalized model with no significant overfitting.
 - While Matrix Factorization remains a solid approach, **SVD provides notable improvements in accuracy**.
+- However, those simple approaches are not the best solutions for this topic.
