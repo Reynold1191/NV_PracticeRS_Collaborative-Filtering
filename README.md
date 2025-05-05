@@ -10,12 +10,21 @@ This project focuses on implementing and evaluating different recommendation sys
     + Stochastic Gradient Descent (SGD)
     + Mini-batch Gradient Descent
 
+---
+
+# 🏗️ Flow
+![Flow](CF_flow.png)
+
+---
+
 ## 📊 Performance Comparison
 
 | Method                      | Train Loss | Test Loss | Train MAE | Test MAE | Train RMSE | Test RMSE |
 |-----------------------------|------------|-----------|-----------|----------|------------|-----------|
 | Matrix Factorization        | 0.0513     | 0.0518    | 0.1784    | 0.1795   | 0.2266     | 0.2275    |
 | SVD                         | 0.0488     | 0.0510    | 0.1743    | 0.1786   | 0.2209     | 0.2258    |
+
+---
 
 ## 📌 Observations
 - **SVD outperforms Matrix Factorization** across all evaluation metrics, particularly in terms of lower loss and error values.
